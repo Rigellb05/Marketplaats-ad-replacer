@@ -9,5 +9,6 @@ WARNING:
 - For now, this only works on 16 : 9, 1080p panels (This should be changed in the future)
 - If you have a panel with a different resolution, it can be changed in the settings to run the code fine
 - This is not perfect, it will probably still make some errors
+- Please put the scaling to 125% is the settings
 
 Please send me a email to rigel36000@gmail.com for any bugs and suggestions.
