@@ -641,3 +641,5 @@ elif f.cat_getter2() == "Actie":
     pyautogui.scroll(-360)
     pyautogui.click(490, 821)
     pyautogui.typewrite(f.price_getter())
+# Placing the ad
+pyautogui.scroll(-10000)
