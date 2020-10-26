@@ -1,8 +1,6 @@
 import time
-import pytesseract
 from PIL import ImageGrab
 import numpy as np
-import cv2
 import requests
 import pyautogui
 from bs4 import BeautifulSoup as bs
@@ -643,3 +641,8 @@ elif f.cat_getter2() == "Actie":
     pyautogui.typewrite(f.price_getter())
 # Placing the ad
 pyautogui.scroll(-10000)
+pyautogui.click(810, 980)
+
+# deleting the ad that was replaced
+pyautogui.click(0, 500)
+pyautogui.click(100, 1700)
